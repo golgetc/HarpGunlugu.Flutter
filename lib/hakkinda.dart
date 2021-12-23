@@ -49,7 +49,7 @@ class _UygulamaHakkindaState extends State<UygulamaHakkinda> {
             ),
             new Divider(),
             Text(
-                "Gaziantep'in düşman işgalinden kurtuluşunun 100. yılında Gaziantep Büyükşehir Belediyesi tarafından hazırlatılmıştır.\n(Bu kısma daha fazla detay eklenebilir.)",
+                "Gaziantep'in düşman işgalinden kurtuluşunun 100. yılında Şehitkamil Belediyesi'nin Gaziantep halkına armağanıdır.",
                 style: TextStyle(
                   fontSize: 15.0,
                   fontWeight: FontWeight.w300,

@@ -87,16 +87,6 @@ class MyDrawer extends StatelessWidget {
               );
             },
           ),
-          new ListTile(
-            title: new Text('Hepsi'),
-            leading: new Icon(Icons.date_range_outlined),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Hepsi()),
-              );
-            },
-          ),
           new Divider(),
           new ListTile(
             title: new Text('Arama'),

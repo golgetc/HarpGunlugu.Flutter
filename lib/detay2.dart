@@ -111,7 +111,7 @@ class HaberDetay extends StatelessWidget {
               Share.share(
                   "Antep Savunması'nda bugün ne oldu?\n" +
                       haber_detay.tarih +
-                      "\nAntep Savunması Harp Günlüğü Uygulama Linki: linkburayagelir.",
+                      "\nAntep Savunması Harp Günlüğü Uygulama Linki: https://play.google.com/store/apps/details?id=com.antep.harpgunlugu \n https://apps.apple.com/tr/app/1601875562",
                   subject: 'Antep Savunması Harp Günlüğü Uygulaması',
                   sharePositionOrigin:
                       box.localToGlobal(Offset.zero) & box.size);
@@ -145,49 +145,19 @@ class HaberDetay extends StatelessWidget {
       body: new Center(
         child: new SingleChildScrollView(
             child: new Container(
-          child: Column(
-            children: [
-              topContent,
-              //Text(haber_detay.id), //Her habere özel id
-              bottomContent,
-              Padding(
-                padding: EdgeInsets.only(left: 5.0, bottom: 40.0, right: 5.0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10.0),
-                  child: Image.network(haber_detay.resimyol,
-                      width: 350, fit: BoxFit.fitWidth),
-                ),
+          child: Column(children: [
+            topContent,
+            //Text(haber_detay.id), //Her habere özel id
+            bottomContent,
+            Padding(
+              padding: EdgeInsets.only(left: 5.0, bottom: 40.0, right: 5.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(10.0),
+                child: Image.network(haber_detay.resimyol,
+                    width: 350, fit: BoxFit.fitWidth),
               ),
-              Wrap(children: [
-                FlatButton(
-                    textColor: Colors.white,
-                    color: Colors.transparent,
-                    onPressed: () {
-                      print("Butona 1 Kez Tıklandı");
-                    },
-                    padding: EdgeInsets.all(10),
-                    child: Wrap(
-                      children: <Widget>[
-                        Icon(Icons.navigate_before),
-                        Text("Önceki Gün", style: TextStyle(fontSize: 20)),
-                      ],
-                    )),
-                FlatButton(
-                    textColor: Colors.white,
-                    color: Colors.transparent,
-                    onPressed: () {
-                      print("Butona 1 Kez Tıklandı");
-                    },
-                    padding: EdgeInsets.all(10),
-                    child: Wrap(
-                      children: <Widget>[
-                        Text("Sonraki Gün", style: TextStyle(fontSize: 20)),
-                        Icon(Icons.navigate_next)
-                      ],
-                    )),
-              ])
-            ],
-          ),
+            ),
+          ]),
         )),
       ),
     );

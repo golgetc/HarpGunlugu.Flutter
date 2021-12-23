@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "67854632651",
+    "project_id": "antepsavunmasiharpgunlugu",
+    "storage_bucket": "antepsavunmasiharpgunlugu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67854632651:android:9e4f97b9103daf0fb4fd4e",
+        "android_client_info": {
+          "package_name": "com.antep.harpgunlugu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67854632651-1q0m187mrpue8fv92cp5be6ue4bah92e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd1KQnJgwsFcqb-5W5g7pAGVBhEMqU9_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67854632651-1q0m187mrpue8fv92cp5be6ue4bah92e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
